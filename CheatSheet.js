@@ -10,22 +10,35 @@ _Conditionals
     _Else Statement
     _Else If Statements
     _Switch Statement
+
 _Functions
+
 _Scope
+
 _Arrays
+
 _Loops
+
 _Iterators
+
 _Objects
+    _Object
+
 _Classes
     _Class
     _Class with constructor
     _Class with extends
     _Class with methods
     _Class with static methods
+
 _Modules
+
 _Promises
+
 _Async & Await
+
 _Requests
+
 |========================|
 \*----------------------*/
 
@@ -141,7 +154,7 @@ switch (myDirection){
 /*===================================================================================================================*/
 /*--------_Objects--------*\
 _Object
-\*-----------------------------*/
+\*------------------------*/
 
 // _Object
 let president = {
