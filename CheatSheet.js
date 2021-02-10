@@ -38,6 +38,8 @@ _Classes
     _Class with static methods
 
 _Modules
+    _Import
+    _Export
 
 _Promises
 
@@ -349,6 +351,35 @@ console.log(
 );
 
 
+
+
+/*===================================================================================================================*/
+/*===================================================================================================================*/
+/*--------_Modules--------*\
+_Import
+_Export
+\*-----------------------------*/
+
+//_Import
+//Ex 1
+const myClass = require("./myClass");
+//Ex 2
+const { myClass1, myclass2 } = require("./myClasses")
+
+//_Export
+//Example 1
+module.exports.myModule = myModule;
+//Example 2
+module.exports = {
+    myModule1,
+    myModule2
+}
+//Example 3
+exports.myModule = myModule;
+//Example 4 (to use node)
+let myModule = {};
+myModule.name = "Javascript Node.js"
+moduel.explorts = myModule;
 
 
 /*===================================================================================================================*/
